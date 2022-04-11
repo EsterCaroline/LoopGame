@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/telaRedefinir"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6DB5FF"
+    tools:context=".ActivityRedefinir">
+
+    <ImageView
+        android:id="@+id/imageViewLogoRedefinir"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayoutInicialRedefinir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayoutInicialRedefinir"
+        android:layout_width="397dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnEnviarRedefinir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/editTextEmailRedefinir"
+            android:layout_width="309dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="50dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewCodigoRedefinir" />
+
+        <TextView
+            android:id="@+id/textViewCodigoRedefinir"
+            android:layout_width="336dp"
+            android:layout_height="147dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="21dp"
+            android:text="@string/email"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextEmailRedefinir"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/email" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btnEnviarRedefinir"
+        android:layout_width="258dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="77dp"
+        android:backgroundTint="#FA934D"
+        android:text="Enviar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayoutInicialRedefinir"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayoutInicialRedefinir"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonVoltarLoginRedefinir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEnviarRedefinir"
+        app:srcCompat="@drawable/_829860_arrow_back_left_icon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

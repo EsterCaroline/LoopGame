@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ester/AndroidStudioProjects/Exemplo1/app/src/main/res/drawable/nivelA.xml" value="0.174" />
+        <entry key="..\:/Users/Ester/AndroidStudioProjects/Exemplo1/app/src/main/res/layout/activity_cadastro.xml" value="0.264" />
+        <entry key="..\:/Users/Ester/AndroidStudioProjects/Exemplo1/app/src/main/res/layout/activity_explicacao_questoes.xml" value="0.264" />
+        <entry key="..\:/Users/Ester/AndroidStudioProjects/Exemplo1/app/src/main/res/layout/activity_iniciarteste.xml" value="0.264" />
+        <entry key="..\:/Users/Ester/AndroidStudioProjects/Exemplo1/app/src/main/res/layout/activity_initial.xml" value="0.176" />
+        <entry key="..\:/Users/Ester/AndroidStudioProjects/Exemplo1/app/src/main/res/layout/activity_login.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/Ester/AndroidStudioProjects/Exemplo1/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Ester/AndroidStudioProjects/Exemplo1/app/src/main/res/layout/activity_main2.xml" value="0.23938223938223938" />
+        <entry key="..\:/Users/Ester/AndroidStudioProjects/Exemplo1/app/src/main/res/layout/activity_main3.xml" value="0.264" />
+        <entry key="..\:/Users/Ester/AndroidStudioProjects/Exemplo1/app/src/main/res/layout/activity_main4.xml" value="0.2" />
+        <entry key="..\:/Users/Ester/AndroidStudioProjects/Exemplo1/app/src/main/res/layout/activity_main5.xml" value="0.264" />
+        <entry key="..\:/Users/Ester/AndroidStudioProjects/Exemplo1/app/src/main/res/layout/activity_main6.xml" value="0.2" />
+        <entry key="..\:/Users/Ester/AndroidStudioProjects/Exemplo1/app/src/main/res/layout/activity_main7.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ester/AndroidStudioProjects/Exemplo1/app/src/main/res/layout/activity_main8.xml" value="0.1546875" />
+        <entry key="..\:/Users/Ester/AndroidStudioProjects/Exemplo1/app/src/main/res/layout/activity_main_splash.xml" value="0.13994565217391305" />
+        <entry key="..\:/Users/Ester/AndroidStudioProjects/Exemplo1/app/src/main/res/layout/activity_questoes.xml" value="0.264" />
+        <entry key="..\:/Users/Ester/AndroidStudioProjects/Exemplo1/app/src/main/res/layout/activity_redefinir.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Ester/AndroidStudioProjects/Exemplo1/app/src/main/res/layout/activity_segundaredefinir.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Ester/AndroidStudioProjects/Exemplo1/app/src/main/res/layout/activity_telanivel.xml" value="0.264" />
+        <entry key="..\:/Users/Ester/AndroidStudioProjects/Exemplo1/app/src/main/res/layout/activity_testenivel.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

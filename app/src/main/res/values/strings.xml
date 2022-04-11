@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Exemplo1</string>
+    <string name="jogador1">1 jogador</string>
+    <string name="jogador2">2 jogador</string>
+    <string name="jogador3">3 jogador</string>
+    <string name="jogador4">4 jogador</string>
+    <string name="jogador5">5 jogador</string>
+    <string name="senha">A senha deve ter no minimo 8 caracteres ,</string>
+    <string name="requisito1">*Incluir números</string>
+    <string name="requisito2">*Letras maiusculas e minusculas</string>
+    <string name="requisito3">*Incluir um caractere especial</string>
+    <string name="email">Será enviado um codigo para seu e-mail</string>
+    <string name="dica1">Aprender o conceito de instruçoes simples é a primeira etapa para compreender logica de programação</string>
+    <string name="realizeaprovanivel">Para começar a jogar é necessario realizar um teste para direcionarmos voce a um nível correspondente aos seus conhecimentos.Esse teste também servirá como base para medir sua evolução .Vamos começar?</string>
+    <string-array name="dicas_array">
+        <item>Lógica de programação são os ingredientes do bolo, ou seja, programar sem lógica de programação é a mesma coisa que tentar fazer um bolo sem ingredientes.</item>
+        <item>Aprender o conceito de instruções simples é a primeira etapa para compreender lógica de programação. </item>
+        <item>Saber lógica de programação é saber o melhor jeito de escrever um código, para o computador interpretar corretamente.</item>
+        <item>Lógica de programação é o modo como se escreve um programa de computador, um algoritmo.</item>
+    </string-array>
+
+    /*utilizar o codigo a baixo para chamar o array*/
+    /*Resources res = getResources();
+    String[] planets = res.getStringArray(R.array.dicas_array);*/
+</resources>

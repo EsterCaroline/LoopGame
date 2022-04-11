@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/telaHome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6DB5FF"
+    tools:context=".MainActivity">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="333dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="1dp"
+
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="88dp"
+        android:background="#2196F3"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRankingHome">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+
+
+                android:id="@+id/textViewPrimeiroJogadorHome"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:hint="@string/jogador1"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textViewSegundoJogadorHome"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:hint="@string/jogador2"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textViewTerceiroJogadorHome"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:hint="@string/jogador3"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textViewQuartoJogadorHome"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:hint="@string/jogador4"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/textViewQuintoJogadorHome"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:hint="@string/jogador5"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/textViewSextoJogadorHome"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:hint="@string/jogador5"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <Button
+        android:id="@+id/btnJogarHome"
+        android:layout_width="318dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="#fa934d"
+        android:text="Jogar"
+        android:visibility="visible"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints"
+        tools:visibility="visible" />
+
+
+    <ImageView
+        android:id="@+id/imageViewLogoHome"
+        android:layout_width="391dp"
+        android:layout_height="172dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="37dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewNomeJogadorHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textViewNomeJogadorHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jogador"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.278"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.366" />
+
+    <TextView
+        android:id="@+id/textViewPontosHome"
+        android:layout_width="36dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="180dp"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewCoroaHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toEndOf="@+id/textViewNomeJogadorHome"
+        app:layout_constraintTop_toTopOf="@+id/imageViewCoroaHome"
+        app:layout_constraintVertical_bias="0.473" />
+
+    <ImageView
+        android:id="@+id/imageViewAvatarHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayoutDicasHome"
+        app:layout_constraintEnd_toStartOf="@+id/textViewNomeJogadorHome"
+        app:layout_constraintHorizontal_bias="0.735"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewLogoHome"
+        app:layout_constraintVertical_bias="0.596"
+        app:srcCompat="@drawable/avatar" />
+
+    <TextView
+        android:id="@+id/textViewRankingHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="256dp"
+        android:text="RANKING"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNomeJogadorHome"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayoutDicasHome"
+        android:layout_width="351dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="56dp"
+        android:background="#03A9F4"
+        app:layout_constraintBottom_toTopOf="@+id/textViewRankingHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewLogoHome"
+        app:layout_constraintVertical_bias="0.837">
+
+        <TextView
+            android:id="@+id/textViewDicasHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="10dp"
+            android:text="DICAS"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/textViewDicaHome"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewDicaHome"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="21dp"
+            android:text="@string/dica1"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDicasHome" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageViewCoroaHome"
+        android:layout_width="63dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayoutDicasHome"
+        app:layout_constraintEnd_toEndOf="@+id/textViewPontosHome"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textViewNomeJogadorHome"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewLogoHome"
+        app:layout_constraintVertical_bias="0.604"
+        app:srcCompat="@drawable/coroa" />
+
+    <Button
+        android:id="@+id/btnSairHome"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:backgroundTint="#9EFA934D"
+        android:text="Sair"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnJogarHome" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

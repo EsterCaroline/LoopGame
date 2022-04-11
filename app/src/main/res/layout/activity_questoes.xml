@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TelaQuestoes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityQuestoes">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayoutTelaQuestoes"
+        android:layout_width="409dp"
+        android:layout_height="90dp"
+        android:background="#6DB5FF"
+        app:layout_constraintBottom_toTopOf="@+id/terceiroConstraintLayoutTelaQuestoes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/imageViewQuestoes"
+            android:layout_width="69dp"
+            android:layout_height="59dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.583"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.545"
+            app:srcCompat="@drawable/nivel_a" />
+
+        <TextView
+            android:id="@+id/textViewProvaTelaQuestoes"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_marginEnd="181dp"
+            android:text="Prova do nivel"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textViewPontosTeste"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.457" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="53dp"
+            android:text="Pontuação:"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.959"
+            app:layout_constraintStart_toEndOf="@+id/textViewProvaTelaQuestoes"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.509" />
+
+        <TextView
+            android:id="@+id/textViewPontosTeste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="0"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView23"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewProvaTelaQuestoes" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/terceiroConstraintLayoutTelaQuestoes"
+        android:layout_width="377dp"
+        android:layout_height="569dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.969">
+
+        <ScrollView
+            android:id="@+id/scrollViewAlternativasQuestoes"
+            android:layout_width="340dp"
+            android:layout_height="227dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.724">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/btnPrimeiraAlternativaQuestoes"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#BED1F6F3"
+                    android:textColor="#000000"
+                    tools:layout_editor_absoluteX="64dp"
+                    tools:layout_editor_absoluteY="90dp" />
+
+                <Button
+                    android:id="@+id/btnSegundaAlternativaQuestoes"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#BED1F6F3"
+                    android:textColor="#000000"
+                    tools:layout_editor_absoluteX="64dp"
+                    tools:layout_editor_absoluteY="90dp" />
+
+                <Button
+                    android:id="@+id/btnTerceiraAlternativaQuestoes"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#BED1F6F3"
+                    android:textColor="#000000"
+                    tools:layout_editor_absoluteX="64dp"
+                    tools:layout_editor_absoluteY="90dp" />
+
+                <Button
+                    android:id="@+id/btnQuartaAlternativaQuestoes"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#BED1F6F3"
+                    android:textColor="#000000"
+                    tools:layout_editor_absoluteX="64dp"
+                    tools:layout_editor_absoluteY="90dp" />
+
+                <Button
+                    android:id="@+id/btnQuintaAlternativaQuestoes"
+                    android:layout_width="329dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#BED1F6F3"
+                    android:textColor="#000000"
+                    tools:layout_editor_absoluteX="64dp"
+                    tools:layout_editor_absoluteY="90dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/segundoConstraintLayoutTelaQuestoes"
+            android:layout_width="362dp"
+            android:layout_height="179dp"
+            android:background="#EB8ADCD4"
+            app:layout_constraintBottom_toTopOf="@+id/scrollViewAlternativasQuestoes"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.205">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <TextView
+                    android:id="@+id/textViewPerguntaTeste"
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:text="Questão 1"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </ScrollView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
